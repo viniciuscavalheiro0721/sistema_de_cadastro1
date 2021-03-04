@@ -1,0 +1,20 @@
+{
+    "name": "login/cadastro",
+    "description": "casdastro e login php",
+    "authors": [
+        {
+            "name": "curso webdesign em foco",
+            "email": "vinicius.cavalheiro0721@unilasalle.edu.br"
+        }
+    ],
+    "require": {},
+    "autoload":{
+   	 	"psr-4":{
+
+    			"Classes\\":"../classes/",
+                "Models\\":"../models/",
+                "Traits\\":"../traits/"
+
+            }
+        }
+}
